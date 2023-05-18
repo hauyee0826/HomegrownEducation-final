@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.homegrowneducation.mainPage.MainPage"
+        android:label="MainActivity"
+        tools:layout="@layout/main_page">
+        <action
+            android:id="@+id/action_main_page_to_quiz_main"
+            app:destination="@id/quiz_Main" >
+        </action>
+        <action
+            android:id="@+id/action_main_page_to_puzzle_main"
+            app:destination="@id/puzzle_main" >
+        </action>
+        <action
+            android:id="@+id/action_main_page_to_exec_main"
+            app:destination="@id/exec_main" >
+        </action>
+        <action
+            android:id="@+id/action_main_page_to_course_main"
+            app:destination="@id/course_main" >
+        </action>
+    </activity>
+
+    <fragment
+        android:id="@+id/puzzle_main"
+        android:name="com.example.homegrowneducation.puzzle.Puzzle_main"
+        android:label="puzzle_main"
+        tools:layout="@layout/puzzle_main" >
+        <action
+            android:id="@+id/action_puzzle_main_to_easy_puzzle"
+            app:destination="@id/easy_puzzle" />
+        <action
+            android:id="@+id/action_puzzle_main_to_normal_puzzle"
+            app:destination="@id/normal_puzzle" />
+        <action
+            android:id="@+id/action_puzzle_main_to_hard_puzzle"
+            app:destination="@id/hard_puzzle" />
+        <action
+            android:id="@+id/action_puzzle_main_self"
+            app:destination="@id/puzzle_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/easy_puzzle"
+        android:name="com.example.homegrowneducation.puzzle.Puzzle_easy"
+        android:label="easy_puzzle"
+        tools:layout="@layout/puzzle_easy" >
+        <action
+            android:id="@+id/action_easy_puzzle_to_puzzle_main"
+            app:destination="@id/puzzle_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/normal_puzzle"
+        android:name="com.example.homegrowneducation.puzzle.Puzzle_normal"
+        android:label="normal_puzzle"
+        tools:layout="@layout/puzzle_normal" >
+        <action
+            android:id="@+id/action_normal_puzzle_to_puzzle_main"
+            app:destination="@id/puzzle_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/hard_puzzle"
+        android:name="com.example.homegrowneducation.puzzle.Puzzle_hard"
+        android:label="hard_puzzle"
+        tools:layout="@layout/puzzle_hard" >
+        <action
+            android:id="@+id/action_hard_puzzle_to_puzzle_main"
+            app:destination="@id/puzzle_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/course_1"
+        android:name="com.example.homegrowneducation.course.Course_1"
+        android:label="Course_1"
+        tools:layout="@layout/course_1">
+        <action
+            android:id="@+id/action_course_1_to_course_main"
+            app:destination="@id/course_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/course_2"
+        android:name="com.example.homegrowneducation.course.Course_2"
+        android:label="Course_2"
+        tools:layout="@layout/course_2">
+        <action
+            android:id="@+id/action_course_2_to_course_main"
+            app:destination="@id/course_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/course_3"
+        android:name="com.example.homegrowneducation.course.Course_3"
+        android:label="Course_3"
+        tools:layout="@layout/course_3">
+        <action
+            android:id="@+id/action_course_3_to_course_main"
+            app:destination="@id/course_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/course_5"
+        android:name="com.example.homegrowneducation.course.Course_5"
+        android:label="Course_5"
+        tools:layout="@layout/course_5">
+        <action
+            android:id="@+id/action_course_5_to_course_main"
+            app:destination="@id/course_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/course_4"
+        android:name="com.example.homegrowneducation.course.Course_4"
+        android:label="Course_4"
+        tools:layout="@layout/course_4">
+        <action
+            android:id="@+id/action_course_4_to_course_main"
+            app:destination="@id/course_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/course_main"
+        android:name="com.example.homegrowneducation.course.Course_main"
+        android:label="Course_main"
+        tools:layout="@layout/course_main">
+        <action
+            android:id="@+id/action_course_main_to_course_4"
+            app:destination="@id/course_4" />
+        <action
+            android:id="@+id/action_course_main_to_course_5"
+            app:destination="@id/course_5" />
+        <action
+            android:id="@+id/action_course_main_to_course_3"
+            app:destination="@id/course_3" />
+        <action
+            android:id="@+id/action_course_main_to_course_2"
+            app:destination="@id/course_2" />
+        <action
+            android:id="@+id/action_course_main_to_course_1"
+            app:destination="@id/course_1" />
+        <argument
+            android:name="course"
+            android:defaultValue=""
+            app:argType="string"/>
+    </fragment>
+    <activity
+        android:id="@+id/exec_main"
+        android:name="com.example.homegrowneducation.mathexec.Exec_main"
+        android:label="Exec_main"
+        tools:layout="@layout/exc_main">
+        <action
+            android:id="@+id/action_exec_main_to_main_page"
+            app:destination="@id/mainActivity" >
+        </action>
+    </activity>
+    <activity
+        android:id="@+id/quiz_Main"
+        android:name="com.example.homegrowneducation.mathquiz.Quiz_Main"
+        android:label="Quiz_Main"
+        tools:layout="@layout/quiz_main">
+        <action
+            android:id="@+id/action_quiz_main_to_main_page"
+            app:destination="@id/mainActivity" >
+        </action>
+    </activity>
+    <activity
+        android:id="@+id/resetPasswordActivity"
+        android:name="com.example.homegrowneducation.mainPage.MyAccountActivity"
+        android:label="activity_reset_password"
+        tools:layout="@layout/activity_reset_password" />
+    <activity
+        android:id="@+id/registerAcitivity"
+        android:name="com.example.homegrowneducation.loginRegister.RegisterAcitivity"
+        android:label="RegisterAcitivity"
+        tools:layout="@layout/activity_register_acitivity"/>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.homegrowneducation.loginRegister.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/execPage"
+        android:name="com.example.homegrowneducation.mathexec.ExecPage"
+        android:label="activity_exec_page"
+        tools:layout="@layout/activity_exec_page" />
+    <activity
+        android:id="@+id/quiz_Page"
+        android:name="com.example.homegrowneducation.mathquiz.Quiz_Page"
+        android:label="activity_quiz_page"
+        tools:layout="@layout/activity_quiz_page" />
+    <fragment
+        android:id="@+id/profilePage"
+        android:name="com.example.homegrowneducation.mainPage.ProfilePage"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" >
+        <action
+            android:id="@+id/action_profilePage_to_aboutUs"
+            app:destination="@id/aboutUs" />
+        <action
+            android:id="@+id/action_profilePage_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_profilePage_to_main_page"
+            app:destination="@id/main_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.example.homegrowneducation.mainPage.AboutUs"
+        android:label="about_us"
+        tools:layout="@layout/about_us" >
+        <action
+            android:id="@+id/action_aboutUs_to_profilePage"
+            app:destination="@id/profilePage" />
+    </fragment>
+    <activity
+        android:id="@+id/intro"
+        android:name="com.example.homegrowneducation.Intro"
+        android:label="intro"
+        tools:layout="@layout/intro" />
+    <activity
+        android:id="@+id/main_page"
+        android:name="com.example.homegrowneducation.mainPage.MainPage"
+        android:label="intro"
+        tools:layout="@layout/main_page" />
+    <activity
+        android:id="@+id/myA"
+        android:name="com.example.homegrowneducation.mainPage.MainPage"
+        android:label="intro"
+        tools:layout="@layout/main_page" />
+    <activity
+        android:id="@+id/resetPasswordActivity2"
+        android:name="com.example.homegrowneducation.ResetPasswordActivity"
+        android:label="ResetPasswordActivity" />
+    <activity
+        android:id="@+id/quiz_Main2"
+        android:name="com.example.homegrowneducation.mathquiz.Quiz_Main"
+        android:label="quiz_main"
+        tools:layout="@layout/quiz_main" />
+
+
+</navigation>

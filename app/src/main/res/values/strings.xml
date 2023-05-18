@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username_string">username</string>
+    <string name="welcome___string">Welcome , </string>
+    <string name="activities_string">Activities</string>
+    <string name="_60s_quiz_game_string">60s Quiz Game</string>
+    <string name="exercise_string">Exercise</string>
+    <string name="puzzle_game_string">Puzzle Game</string>
+
+
+    <string name="app_name">HomegrownEducation</string>
+    <string name="course_string">Course</string>
+    <string name="title_activity_course_main">Course</string>
+
+    <string name="course_1_descript">go to introduce to math</string>
+    <string name="course_2_descript">go to addition</string>
+    <string name="course_3_descript">go to subtraction</string>
+    <string name="course_4_descript">go to multiplication</string>
+    <string name="course_5_descript">go to division</string>
+
+    <string name="page_1">Page 1</string>
+    <string name="page_2">Page 2</string>
+    <string name="page_3">Page 3</string>
+
+    <string name="course_1_text_title_1">Introduction</string>
+    <string name="course_1_text_title_2">Types of Mathematics</string>
+
+    <string name="course_1_text_1">Mathematics, or math, is the study of numbers and how they are related to each other and to the real world. Math is as important as language. In fact, people sometimes describe math as a kind of language. Everyone uses math every day—to tell time, to play games, to cook, to build things, and to do almost any kind of work.</string>
+    <string name="course_1_text_2">There are many branches of mathematics. Some of the main ones are arithmetic, algebra, geometry, trigonometry, calculus, statistics, and probability.
+
+Mathematics also may be divided into two general areas: pure and applied. Pure math is the study of math for its own sake. Applied math is the study of math for the purpose of solving real-life problems. People use applied math to build skyscrapers, make computers, predict earthquakes, explain how the economy works, and many other things.</string>
+
+    <string name="course_2_text_title_1">Definition of Addition</string>
+    <string name="course_2_text_title_2">Addition Symbol</string>
+
+    <string name="course_2_text_1">Addition in math is a process of combining two or more numbers. Addends are the numbers being added, and the result or the final answer we get after the process is called the sum. It is one of the essential mathematical functions we use in our everyday activities. There are many situations in which we add numbers. One of the most common everyday uses for adding numbers is when we work with time or money—for example, adding up bills and receipts.
+
+The addition has an infinite number of applications in our day-to-day life. We use addition while cooking food, while calculating bills at supermarkets, while calculating distances, and much more.</string>
+    <string name="course_2_text_2">The addition symbol used to indicate addition of numbers is "+" (also called the plus symbol). For example, we read as 5 + 3 as "5  plus 3" .
+
+An addition sentence is a mathematical expression that shows two or more values added together and their sum. The two or more values that are added are called addends. The parts of addition sentence are two or more addends, plus symbol(s), equal sign, and the sum.
+
+Let’s look at this with the help of another example.Let’s say we have two yellow stars, and three purple stars.
+
+In order to find the total number of stars we have, we count all the stars together. That is, together we have 5 stars.
+
+Mathematically, we write this as 2 + 3 = 5.
+
+Here, “+” denotes addition. The total that we get on adding two or more numbers is also called the sum. Therefore in this example, 5 is the sum of 2 and 3.
+
+Considering one more example, if we add the numbers 6 and 4, we get the sum 10; and we write this as 6+ 4 = 10</string>
+
+    <string name="course_3_text_title_1">Definition of Subtraction</string>
+    <string name="course_3_text_title_2">Subtraction Symbol</string>
+
+    <string name="course_3_text_1">Subtraction is one of the four basic arithmetic operations in mathematics. The other three being addition, multiplication, and division.
+The operation or process of finding the difference between two numbers or quantities is known as subtraction. To subtract a number from another number is also referred to as ‘taking away one number from another’. Some instances where we use subtraction are while making payments, transferring money to our friends and many more.
+We can observe the applications of subtraction in our day-to-day life in different situations.
+    </string>
+    <string name="course_3_text_2">In mathematics, we have generally used different symbols for different operators. We have symbols like + , - , * , / and many more. The subtraction symbol "-" is one of the most important math symbols that we use. In the above section, we read about subtracting two numbers 6 and 3. If we observe this expression: (6 - 3 = 3), the symbol (-) between the two numbers is what denotes subtraction. This symbol is also known as the minus (-) sign.</string>
+
+    <string name="course_4_text_title_1">Definition ofMultiplication</string>
+    <string name="course_4_text_title_2">Multiplication Symbol</string>
+
+    <string name="course_4_text_1">Multiplication is one of the four basic arithmetic operations, alongside addition, subtraction, and division. In math, multiply means the repeated addition of groups of equal sizes.
+To understand better, let us take a multiplication example of the ice creams.
+
+Each group has three ice creams, and there are two such groups.
+
+Total ice creams are 3 + 3 = 6.
+
+However, you have added two groups of 3 ice creams. Therefore, you have multiplied three ice creams by two. You may also write it as 2 x 2 = 3.
+
+As we can see, 3 + 3is the same as 2 x 3.When we multiply two numbers, the answer is called product. The number of objects in each group is called multiplicand, and the number of such equal groups is called the multiplier. In our case, 3 is the multiplicand, 2 is the multiplier and 6 is the product.
+
+There are many ways to read an equation that involves multiplication. For example, 2 x 3 = 6. It can be read as follows:
+    - Two multiplied by three is six.
+    - Two times three is six.
+    - Two threes are six.
+    </string>
+    <string name="course_4_text_2">Multiplication is represented by the signs cross (×), asterisk (*), or dot (·). While writing in your notebooks, you are most likely to use the cross. The asterisk and dot are used in computer languages and algebra (higher mathematics).
+
+For example:
+    6 x 5 = 30
+    7 * 8 = 56
+    5 . 4 = 20
+    </string>
+
+    <string name="course_5_text_title_1">Definition of Division</string>
+    <string name="course_5_text_title_2">Division Symbol</string>
+
+    <string name="course_5_text_1">Division is the opposite of multiplication. If 3 groups of 4 make 12 in multiplication, 12 divided into 3 equal groups give 4 in each group in division.
+
+The main goal of dividing is to see how many equal groups are formed or how many are in each group when sharing fairly.
+
+In the above example, to divide 12 donuts into 3 similar groups, you will have to put 4 donuts in each group. So, 12 divided by 3 will give the result 4.</string>
+    <string name="course_5_text_2">Each part involved in a division equation has a special name.
+
+Dividend: The dividend is the number that is being divided in the division process.
+
+Divisor: The number by which the dividend is being divided by is called the divisor.
+
+Quotient: The quotient is a result obtained in the division process.
+
+Remainder: Sometimes, we cannot divide things exactly. There may be a leftover number. That leftover number is called the remainder.
+
+The relationship between these four parts can be expressed as follows:
+
+Dividend = Divisor x Quotient + Remainder
+
+This is also called the division formula to check whether the answer is correct or not.
+
+For example, let’s divide 16 by 3. The leftover will be 1.
+
+Here, dividend = 16, divisor = 3, quotient = 5 and remainder = 1
+
+So, 16 = 3 × 5 + 1
+    </string>
+
+
+    <string name="puzzle_string">Puzzle</string>
+    <string name="puzzle_easy_title">Easy</string>
+    <string name="puzzle_normal_title">Normal</string>
+    <string name="puzzle_hard_title">Hard</string>
+
+    <string name="easy_puzzle_descript">3X3 puzzle with addtion and sudtraction</string>
+    <string name="normal_puzzle_descript">3X3 puzzle with addtion and sudtraction and multiplication</string>
+    <string name="hard_puzzle_descript">3X3 puzzle with all four type of calculation</string>
+
+    <string name="easy_puzzle_descript_content">go to easy puzzle</string>
+    <string name="normal_puzzle_descript_content">go to normal puzzle</string>
+    <string name="hard_puzzle_descript_content">go to hard puzzlen</string>
+
+    <string name="course_1_title_text">Introduce to Math</string>
+    <string name="course_2_title_text">Addition</string>
+    <string name="course_3_title_text">Subtraction</string>
+    <string name="course_4_title_text">Multiplication</string>
+    <string name="course_5_title_text">Division</string>
+
+    <string name="puzzle_instruction">Please fill in the blank with correct number.</string>
+    <string name="register_if_you_dont_have_an_account"><font color="#00C9B8"><b>Register</b></font> if you don\'t have an account</string>
+    <string name="login_to_app">Login to app</string>
+    <string name="hello_welcome">Hello, Welcome!!</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx">Welcome to our education app, where learning meets innovation! Our app is designed to provide you with a fun and interactive way to expand your knowledge and enhance your skills. Whether you are a student, a professional or simply someone who loves to learn, our app has something for everyone.</string>
+    <string name="forgot_password"><font color="#00C9B8"><b>Forgot password</b></font></string>
+    <string name="your_password">Your password</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="login_if_you_have_an_account"><font color="#00C9B8"><b>Login</b></font> if you have an account</string>
+    <string name="hello">Hello</string>
+    <string name="logout">Logout</string>
+    <string name="your_name">Your name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_login_page">Back to<font color="#00C9B8"><b> login </b></font>page</string>
+
+    <string name="username_ek1_string">Username</string>
+    <string name="username_ek2_string">Username</string>
+    <string name="password_ek1_string">Password</string>
+    <string name="password_ek2_string">password</string>
+    <string name="password_ek3_string">comfirm password</string>
+    <string name="sign_in_string">Sign in</string>
+    <string name="haven_t_sign_up_yet__string">havent Sign up yet? </string>
+    <string name="title_string">Welcome Back !</string>
+    <string name="forgot_password__string">Forgot Password?</string>
+    <string name="remember_me_string">Remember me</string>
+
+    <string name="password_string">Password</string>
+    <string name="sign_up_string">Sign up</string>
+    <string name="already_has_account___string">already has account ? </string>
+    <string name="email_string">Email</string>
+    <string name="yourname_gmail_com_string">yourname@gmail.com</string>
+    <string name="title_string2">Get Started !</string>
+    <string name="title_activity_drawar">drawar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutus_text">We, the home growing education team, built this application. When we created this programme, we hoped that everyone would have the opportunity to learn maths. It is because maths is becoming increasingly vital in our lives. We hope you like this app and learn something from it. I hope everything is fine with you.  --by Creaters</string>
+    <string name="logo">logo</string>
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".loginRegister.LoginActivity" >
+
+        <RelativeLayout
+            android:id="@+id/page_login_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_background_shape"
+            android:alpha="0.80000001192093"
+            >
+
+            <ImageView
+                android:id="@+id/homegrown_education_logo_removebg_preview_1"
+                android:layout_width="247dp"
+                android:layout_height="206dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:contentDescription="homegrown_education_logo_removebg_preview_1"
+                android:src="@drawable/homegrown_education_logo_removebg_preview_1" />
+
+            <RelativeLayout
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="610dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="220dp"
+                android:contentDescription="login"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/email_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="90dp"
+                    android:text="@string/email_string"
+                    android:textColor="@color/username_ek2_color"
+                    android:textSize="24sp" />
+
+                <RelativeLayout
+                    android:id="@+id/email_input_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="110dp">
+
+                    <EditText
+                        android:id="@+id/etloginemail"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/yourname_gmail_com_string"
+                        android:textColorHint="@color/username_ek1_color"
+                        android:src="@drawable/card" />
+
+                    <ImageView
+                        android:id="@+id/vector"
+                        android:layout_width="16.61dp"
+                        android:layout_height="15.2dp"
+                        android:layout_marginStart="250dp"
+                        android:layout_marginTop="18dp"
+                        android:contentDescription="vector"
+                        android:src="@drawable/vector_ek1" />
+
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/password_text"
+                    android:layout_width="199dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="160dp"
+                    android:text="@string/password_ek1_string"
+                    android:textColor="@color/username_ek2_color"
+                    android:textSize="24sp" />
+
+                <RelativeLayout
+                    android:id="@+id/password_input_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="180dp">
+
+                    <EditText
+                        android:id="@+id/etloginpassword"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/card"
+                        android:hint="@string/password_ek1_string"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/username_ek1_color" />
+
+                    <ImageView
+                        android:id="@+id/key"
+                        android:layout_width="16.61dp"
+                        android:layout_height="15.2dp"
+                        android:layout_marginStart="250dp"
+                        android:layout_marginTop="18dp"
+                        android:contentDescription="vector"
+                        android:src="@drawable/vector_ek3" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvforgotpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="240dp"
+                    android:text="@string/forgot_password"
+                    android:textSize="24sp"/>
+
+
+                <Button
+                    android:id="@+id/btnloginpage"
+                    android:layout_width="314dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="300dp"
+                    android:background="@drawable/rectangle_2_shape"
+                    android:text="@string/sign_in_string"
+                    style="@style/ButtonGrey"
+                    android:textColor="@color/bg_login_page_ek2_color"
+                    android:textSize="17.92sp" />
+
+                <TextView
+                    android:id="@+id/tvlogintoregister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="380dp"
+                    android:text="@string/haven_t_sign_up_yet__string"
+                    android:textColor="@color/haven_t_sign_up_yet__color"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/title_string"
+                    android:textColor="@color/title_color"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </layout>

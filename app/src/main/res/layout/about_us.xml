@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mainPage.AboutUs">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_main_page_color">
+
+            <ImageView
+                android:id="@+id/backbtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.75"
+                app:srcCompat="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="38dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/profiletitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About US"
+                android:textSize="56sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="80dp"
+                android:textStyle="bold"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="353dp"
+                android:layout_height="550dp"
+                tools:context=".mainPage.MyAccountActivity"
+                android:backgroundTint="@color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/username"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="We, the home growing education team, built this application. When we created this programme, we hoped that everyone would have the opportunity to learn maths. It is because maths is becoming increasingly vital in our lives. We hope you like this app and learn something from it. I hope everything is fine with you.  --by Creaters"
+                    android:textSize="22sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:id="@+id/tvchangename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reset Username"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18sp"
+                    android:src="@drawable/homegrown_education_logo_removebg_preview_1"/>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </layout>

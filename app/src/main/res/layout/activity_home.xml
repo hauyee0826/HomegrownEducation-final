@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mainPage.MainPage">
+
+    <RelativeLayout android:id="@+id/main_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_main_page_color">
+
+        <TextView android:id="@+id/welcome__"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textColor="@color/username_color"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome___string"/>
+
+
+
+        <RelativeLayout android:id="@+id/profile"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_ek1">
+
+            <ImageView android:id="@+id/profile_ek1"
+                android:src="@drawable/profile_ek1"
+                android:contentDescription="profile_ek1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="320dp"
+                android:layout_height="112dp" />
+
+            <TextView android:id="@+id/username"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/username_color"
+                android:layout_marginLeft="111dp"
+                android:layout_marginTop="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username_string"
+                />
+
+
+            <ImageView android:id="@+id/profile_image"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="26dp"
+                android:src="@drawable/default_profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/acitivities"
+            android:layout_marginTop="281dp"
+            android:layout_marginStart="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/activities_blog"
+            >
+
+            <ImageView android:id="@+id/activities_blog"
+                android:src="@drawable/activities_blog"
+                android:contentDescription="activities_blog"
+                android:layout_width="wrap_content"
+                android:layout_height="433dp" />
+
+            <TextView android:id="@+id/activities"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/username_color"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="89dp"
+                android:layout_height="34dp"
+                android:text="@string/activities_string"
+                />
+
+            <ImageView android:id="@+id/exec_logo"
+                android:src="@drawable/notebook_1"
+                android:contentDescription="notebook_1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="242dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <TextView android:id="@+id/course_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/course_color"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="352dp"
+                android:layout_width="98dp"
+                android:layout_height="54dp"
+                android:text="@string/course_string"
+                />
+
+            <ImageView android:id="@+id/course_logo"
+                android:src="@drawable/conference_1"
+                android:contentDescription="conference_1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="333dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <TextView android:id="@+id/quiz_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/_60s_quiz_game_color"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="79dp"
+                android:layout_width="162dp"
+                android:layout_height="54dp"
+                android:text="@string/_60s_quiz_game_string"
+                />
+
+            <ImageView android:id="@+id/quiz_logo"
+                android:src="@drawable/_60_seconds_1"
+                android:contentDescription="_60_seconds_1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView android:id="@+id/puzzle_logo"
+                android:src="@drawable/puzzle_1"
+                android:contentDescription="puzzle_1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="151dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/exercise"
+                android:layout_width="93dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="261dp"
+                android:text="@string/exercise_string"
+                android:textColor="@color/exercise_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView android:id="@+id/puzzle_game"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/_60s_quiz_game_color"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="137dp"
+                android:layout_height="54dp"
+                android:text="@string/puzzle_game_string"
+                />
+
+            <ImageView android:id="@+id/quiz_arrow"
+                android:src="@drawable/main_arrow_left"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="260dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageView android:id="@+id/puzzle_arrow"
+                android:src="@drawable/main_arrow_left"
+                android:layout_marginTop="160dp"
+                android:layout_marginStart="260dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageView android:id="@+id/exec_arrow"
+                android:src="@drawable/main_arrow_left"
+                android:layout_marginTop="250dp"
+                android:layout_marginStart="260dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <ImageView android:id="@+id/course_arrow"
+                android:src="@drawable/main_arrow_left"
+                android:layout_marginTop="340dp"
+                android:layout_marginStart="260dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</layout>

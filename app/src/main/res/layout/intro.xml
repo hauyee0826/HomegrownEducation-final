@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Intro">
+
+    <RelativeLayout
+        android:id="@+id/page_intro_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.80000001192093"
+        android:background="@drawable/main_background_shape">
+
+        <ImageView
+            android:id="@+id/homegrown_education_logo_removebg_preview_1"
+            android:layout_width="174dp"
+            android:layout_height="153dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/homegrown_education_logo_removebg_preview_1" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/page_intro_content"
+            android:layout_width="535dp"
+            android:layout_height="629dp"
+            android:layout_marginTop="200dp"
+            android:alpha="0.80000001192093"
+            android:background="@drawable/login">
+
+            <TextView
+                android:id="@+id/tvhello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/hello_welcome"
+                android:textColor="@color/title_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/tvinfo"
+                android:layout_width="353dp"
+                android:layout_height="234dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx_we_are_xxx_this_is_xxx"
+                android:textColor="@color/title_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="313dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="340dp"
+                android:background="@drawable/rectangle_2_shape"
+                android:text="@string/sign_in_string"
+                android:textColor="@color/bg_login_page_ek2_color"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnregister"
+                android:layout_width="313dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="440dp"
+                android:background="@drawable/rectangle_2_shape"
+                android:text="@string/register"
+                android:textColor="@color/bg_login_page_ek2_color"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</layout>

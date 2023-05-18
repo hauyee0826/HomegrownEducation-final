@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegisterAcitivity"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:id="@+id/page_register_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.80000001192093"
+        android:background="@drawable/main_background_shape">
+
+        <ImageView
+            android:id="@+id/homegrown_education_logo_removebg_preview_1"
+            android:layout_width="247dp"
+            android:layout_height="206dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="homegrown_education_logo_removebg_preview_1"
+            android:src="@drawable/homegrown_education_logo_removebg_preview_1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="630dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/username_text"
+                android:layout_width="199dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/username_ek2_string"
+                android:textColor="@color/username_ek2_color"
+                android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/etregistername"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="90dp"
+                    android:hint="@string/username_string"
+                    android:inputType="text"
+                    android:src="@drawable/card"
+                    android:textColorHint="@color/username_ek1_color"
+                    android:textSize="14.33sp" />
+
+            <TextView
+                android:id="@+id/email_text"
+                android:layout_width="199dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="140dp"
+                android:text="@string/email_string"
+                android:textColor="@color/username_ek2_color"
+                android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/etregisteremail"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="160dp"
+                    android:src="@drawable/card"
+                    android:hint="@string/yourname_gmail_com_string"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/username_ek1_color"
+                    android:textSize="14.33sp" />
+
+
+            <TextView
+                android:id="@+id/password_text"
+                android:layout_width="199dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="210dp"
+                android:text="@string/password_ek1_string"
+                android:textColor="@color/username_ek2_color"
+                android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/etregisterpassword"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="230dp"
+                    android:hint="@string/password_ek2_string"
+                    android:inputType="textPassword"
+                    android:src="@drawable/card"
+                    android:textColorHint="@color/username_ek1_color"
+                    android:textSize="14.33sp" />
+
+
+            <TextView
+                android:id="@+id/password_comfirm_text"
+                android:layout_width="199dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="280dp"
+                android:text="@string/confirm_password"
+                android:textColor="@color/username_ek2_color"
+                android:textSize="24sp" />
+
+
+                <EditText
+                    android:id="@+id/etregisterpasswordconfirm"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="300dp"
+                    android:src="@drawable/card"
+                    android:hint="@string/password_ek3_string"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/username_ek1_color"
+                    android:textSize="14.33sp"/>
+
+            <Button
+                android:id="@+id/btnregisterpage"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/rectangle_2_shape"
+                android:gravity="center"
+                android:text="@string/register"
+                style="@style/ButtonGrey"
+                android:textColor="@color/bg_login_page_ek2_color"
+                android:textSize="17.92sp" />
+
+            <TextView
+                android:id="@+id/tvregistertologin"
+                android:layout_width="317dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="410dp"
+                android:gravity="center"
+                android:text="@string/login_if_you_have_an_account"
+                android:textColor="@color/haven_t_sign_up_yet__color"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/title_string2"
+                android:textColor="@color/title_color"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

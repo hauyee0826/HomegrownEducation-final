@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- course_main_page styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/white</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<!-- Text Appearance Subtitle1 style -->
+	<style name="TextAppearance.Course.Subtitle1"
+		parent="TextAppearance.MaterialComponents.Subtitle1">
+		<item name="android:textSize">18sp</item>
+	</style>
+
+	<style name="loginet">
+		<item name="android:layout_width">300dp</item>
+		<item name="android:layout_height">50dp</item>
+		<item name="android:layout_marginBottom">388dp</item>
+		<item name="android:ems">10</item>
+		<item name="android:inputType">textPassword</item>
+	</style>
+
+	<style name="ButtonGrey">
+
+		<item name="android:backgroundTint">@android:color/darker_gray</item>
+		<item name="android:enabled">false</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="ButtonBlue">
+		<item name="android:backgroundTint">@color/primary_color</item>
+		<item name="android:enabled">true</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+</resources>
