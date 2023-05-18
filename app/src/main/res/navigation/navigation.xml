@@ -22,30 +22,8 @@
             android:id="@+id/action_main_page_to_exec_main"
             app:destination="@id/exec_main" >
         </action>
-        <action
-            android:id="@+id/action_main_page_to_course_main"
-            app:destination="@id/course_main" >
-        </action>
     </activity>
 
-    <fragment
-        android:id="@+id/puzzle_main"
-        android:name="com.example.homegrowneducation.puzzle.Puzzle_main"
-        android:label="puzzle_main"
-        tools:layout="@layout/puzzle_main" >
-        <action
-            android:id="@+id/action_puzzle_main_to_easy_puzzle"
-            app:destination="@id/easy_puzzle" />
-        <action
-            android:id="@+id/action_puzzle_main_to_normal_puzzle"
-            app:destination="@id/normal_puzzle" />
-        <action
-            android:id="@+id/action_puzzle_main_to_hard_puzzle"
-            app:destination="@id/hard_puzzle" />
-        <action
-            android:id="@+id/action_puzzle_main_self"
-            app:destination="@id/puzzle_main" />
-    </fragment>
     <fragment
         android:id="@+id/easy_puzzle"
         android:name="com.example.homegrowneducation.puzzle.Puzzle_easy"
@@ -118,41 +96,11 @@
             android:id="@+id/action_course_4_to_course_main"
             app:destination="@id/course_main" />
     </fragment>
-    <fragment
-        android:id="@+id/course_main"
-        android:name="com.example.homegrowneducation.course.Course_main"
-        android:label="Course_main"
-        tools:layout="@layout/course_main">
-        <action
-            android:id="@+id/action_course_main_to_course_4"
-            app:destination="@id/course_4" />
-        <action
-            android:id="@+id/action_course_main_to_course_5"
-            app:destination="@id/course_5" />
-        <action
-            android:id="@+id/action_course_main_to_course_3"
-            app:destination="@id/course_3" />
-        <action
-            android:id="@+id/action_course_main_to_course_2"
-            app:destination="@id/course_2" />
-        <action
-            android:id="@+id/action_course_main_to_course_1"
-            app:destination="@id/course_1" />
-        <argument
-            android:name="course"
-            android:defaultValue=""
-            app:argType="string"/>
-    </fragment>
     <activity
         android:id="@+id/exec_main"
         android:name="com.example.homegrowneducation.mathexec.Exec_main"
         android:label="Exec_main"
-        tools:layout="@layout/exc_main">
-        <action
-            android:id="@+id/action_exec_main_to_main_page"
-            app:destination="@id/mainActivity" >
-        </action>
-    </activity>
+        tools:layout="@layout/exc_main"/>
     <activity
         android:id="@+id/quiz_Main"
         android:name="com.example.homegrowneducation.mathquiz.Quiz_Main"
@@ -236,6 +184,54 @@
         android:name="com.example.homegrowneducation.mathquiz.Quiz_Main"
         android:label="quiz_main"
         tools:layout="@layout/quiz_main" />
+    <fragment
+        android:id="@+id/puzzle_title"
+        android:name="com.example.homegrowneducation.puzzle.Puzzle_title"
+        android:label="Puzzle_title" >
+        <action
+            android:id="@+id/action_puzzle_title_to_hard_puzzle"
+            app:destination="@id/hard_puzzle" />
+        <action
+            android:id="@+id/action_puzzle_title_to_easy_puzzle"
+            app:destination="@id/easy_puzzle" />
+        <action
+            android:id="@+id/action_puzzle_title_to_main_page"
+            app:destination="@id/main_page" />
+        <action
+            android:id="@+id/action_puzzle_title_to_normal_puzzle"
+            app:destination="@id/normal_puzzle" />
+    </fragment>
+    <activity
+        android:id="@+id/puzzle_main"
+        android:name="com.example.homegrowneducation.puzzle.Puzzle_main"
+        android:label="Puzzle_main" />
+    <fragment
+        android:id="@+id/course_title"
+        android:name="com.example.homegrowneducation.course.Course_title"
+        android:label="Course_title" >
+        <action
+            android:id="@+id/action_course_title_to_course_1"
+            app:destination="@id/course_1" />
+        <action
+            android:id="@+id/action_course_title_to_course_3"
+            app:destination="@id/course_3" />
+        <action
+            android:id="@+id/action_course_title_to_course_2"
+            app:destination="@id/course_2" />
+        <action
+            android:id="@+id/action_course_title_to_course_4"
+            app:destination="@id/course_4" />
+        <action
+            android:id="@+id/action_course_title_to_course_5"
+            app:destination="@id/course_5" />
+        <action
+            android:id="@+id/action_course_title_to_main_page"
+            app:destination="@id/main_page" />
+    </fragment>
+    <activity
+        android:id="@+id/course_main"
+        android:name="com.example.homegrowneducation.course.Course_main"
+        android:label="Course_main" />
 
 
 </navigation>

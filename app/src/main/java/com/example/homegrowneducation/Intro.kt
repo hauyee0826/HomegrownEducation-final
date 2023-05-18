@@ -24,6 +24,7 @@ class Intro : AppCompatActivity() {
         binding.btnlogin.setOnClickListener{
             startActivity(Intent(this, LoginActivity::class.java))
         }
+
         binding.btnregister.setOnClickListener{
             startActivity(Intent(this, RegisterAcitivity::class.java))
         }

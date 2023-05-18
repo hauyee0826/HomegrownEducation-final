@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -26,6 +27,24 @@ class ProfilePage: AppCompatActivity(){
 
         auth = FirebaseAuth.getInstance()
         setContentView(binding.root)
+
+        val user = auth.currentUser
+        val displayName = user?.displayName
+        val displayEmail = user?.email
+
+        if (displayName != null) {
+            val textView = findViewById<TextView>(R.id.username)
+            textView.text = displayName.toString()
+        } else {
+            Toast.makeText(this, "Display name not set", Toast.LENGTH_SHORT).show()
+        }
+
+        if (displayEmail != null) {
+            val textView = findViewById<TextView>(R.id.gmail)
+            textView.text = displayEmail.toString()
+        } else {
+            Toast.makeText(this, "Display email not set", Toast.LENGTH_SHORT).show()
+        }
 
         binding.backbtn.setOnClickListener {
             val intent = Intent(this, MainPage::class.java)

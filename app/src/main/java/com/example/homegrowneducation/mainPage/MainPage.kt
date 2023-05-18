@@ -25,7 +25,7 @@ class MainPage : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        val user = FirebaseAuth.getInstance().currentUser
+        val user = auth.currentUser
         val displayName = user?.displayName
 
         if (displayName != null) {
